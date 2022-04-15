@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#define  LOWER  0       // lower limit of table
-#define  UPPER  300     // upper limit
-#define  STEP   20      // step size
+#define  LOWER  0       /* lower limit of table */
+#define  UPPER  300     /* upper limit */
+#define  STEP   20      /* step size */
 
 float fahr2cels(int fahr);
 

@@ -11,5 +11,5 @@ Solutions to the exercises in the book "The C Programming Language, 2nd Edition"
 You can use `fzf` to search for source code files and then compile and run it
 
 ```sh
-cc $(ls *.c | fzf --layout=reverse --height=10) && ./a.out
+cc -ansi $(ls *.c | fzf --layout=reverse --height=10) && ./a.out
 ```
